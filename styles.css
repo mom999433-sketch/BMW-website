@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    width: inherit;
+    height: inherit;
+    background-image: linear-gradient(to right, lightblue , blue , rgb(255, 255, 255));
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+body {
+    background-color: red;
+    background-image: linear-gradient(to right, black , blue , white);
+}
+
+.Bmw {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  border-style: groove;
+  border-color: indigo;
+  border-radius: 13px;
+}
+
+.Gearbox {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 13px;
+}
+
+.Interior {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 13px;
+}
+
+.Engine {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 13px;
+    border-style: groove;
+    border-color: blue;
+}
+
+.OgWheels {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 13px;
+    border-style: groove;
+    border-color: white;
+}
